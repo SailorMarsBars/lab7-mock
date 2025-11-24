@@ -7,18 +7,20 @@ Branches in this repo (with details):
     0289f5c | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T18:57:26Z | Bump python in /presidio-anonymizer
     d818097 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:56:50Z | Auto-update branch-info.txt
     4b53140 | Author: Edsel W. <232106383+SailorMarsBars@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T13:56:38-05:00 | Initial commit
-- dependabot/github_actions/actions/checkout-5
-  SHA: bbd65bc446ad2d130c9cf534190f1c6d19487684
-  Commits: 4
+- dependabot/github_actions/actions/checkout-6
+  SHA: 20500ff5b3330692eee9af299fff01728f6990ac
+  Commits: 5
   Recent commits:
-    bbd65bc | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T18:58:51Z | Bump actions/checkout from 3 to 5
+    20500ff | Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-24T01:40:11Z | Bump actions/checkout from 3 to 6
+    1202375 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:59:01Z | Auto-update branch-info.txt
     589f600 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:57:37Z | Auto-update branch-info.txt
     d818097 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:56:50Z | Auto-update branch-info.txt
     4b53140 | Author: Edsel W. <232106383+SailorMarsBars@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T13:56:38-05:00 | Initial commit
 - main
-  SHA: 589f600020cdab4627cce5c9c1a6a6e9ab241826
-  Commits: 3
+  SHA: 12023752badfcc3911ae2d831e7af6b9e8503a5a
+  Commits: 4
   Recent commits:
+    1202375 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:59:01Z | Auto-update branch-info.txt
     589f600 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:57:37Z | Auto-update branch-info.txt
     d818097 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:56:50Z | Auto-update branch-info.txt
     4b53140 | Author: Edsel W. <232106383+SailorMarsBars@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T13:56:38-05:00 | Initial commit
