@@ -288,7 +288,27 @@ from unittest import mock
 @mock.patch.object(RecognizerResult, "logger")
 def test_logger(mock_logger):
     # replace the following line of `pass` with your test implementation
-    pass
+    # 1. Define inputs
+    entity_type = "test_entity"
+    score = 0.5
+    start = 0
+    end = 10
+
+    # 2. Create the result (this triggers the logging in __init__)
+    create_recognizer_result(entity_type, score, start, end)
+
+    # 3. Assert logger.info was called
+    assert mock_logger.info.called
+
+    # 4. Assert the log message contains the correct values
+    # Retrieve the actual log message string passed to .info()
+    log_message = mock_logger.info.call_args[0][0]
+
+    assert entity_type in log_message
+    assert str(start) in log_message
+    assert str(end) in log_message
+    # The class formats score as f"{score:.2f}", so we must match "0.50" not "0.5"
+    assert f"{score:.2f}" in log_message
 
 def create_recognizer_result(entity_type: str, score: float, start: int, end: int):
     data = {"entity_type": entity_type, "score": score, "start": start, "end": end}
