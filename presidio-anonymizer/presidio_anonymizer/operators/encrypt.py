@@ -55,4 +55,4 @@ class Encrypt(Operator):
 
     def operator_type(self) -> OperatorType:
         """Return operator type."""
-        return OperatorType.Anonymize
+        return "encrypt"
