@@ -26,11 +26,11 @@ Branches in this repo (with details):
     d818097 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:56:50Z | Auto-update branch-info.txt
     4b53140 | Author: Edsel W. <232106383+SailorMarsBars@users.noreply.github.com> | Committer: GitHub <noreply@github.com> | Date: 2025-11-18T13:56:38-05:00 | Initial commit
 - main
-  SHA: fbc9403b1523b510018de197cc1b375dcbb542ed
-  Commits: 8
+  SHA: 7e011b1c2e759c95f15b06ca1f7c843e8852949f
+  Commits: 12
   Recent commits:
+    7e011b1 | Author: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Committer: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Date: 2025-12-14T01:22:03Z | updated code and fixed errors
+    c2584de | Author: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Committer: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Date: 2025-12-14T01:05:07Z | Merge branch 'main' of github.com:SailorMarsBars/lab7-mock 'fixed some errors'
+    e3ede1e | Author: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Committer: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Date: 2025-12-14T00:59:25Z | fixed errors
+    52d07cf | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-12-14T00:42:41Z | Auto-update branch-info.txt
     fbc9403 | Author: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Committer: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Date: 2025-12-14T00:41:20Z | Merge branch 'lab7' 'lab7 branch merged into main'
-    ab3f422 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-12-14T00:29:50Z | Auto-update branch-info.txt
-    3de1ed1 | Author: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Committer: Edsel Witkowski <232106383+SailorMarsBars@users.noreply.github.com> | Date: 2025-12-14T00:26:29Z | steps 1-6
-    894735f | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-24T01:40:21Z | Auto-update branch-info.txt
-    1202375 | Author: GitHub Actions <actions@github.com> | Committer: GitHub Actions <actions@github.com> | Date: 2025-11-18T18:59:01Z | Auto-update branch-info.txt
