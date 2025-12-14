@@ -279,17 +279,17 @@ from unittest import mock
 def test_given_conflict_input_then_merged_correctly(mock_logger):
     # replace the following `pass` line with your test implementation
     engine = AnonymizerEngine()
-2     text = "I'm George Washington Square Park."
-3     original_analyzer_results = [
-4         RecognizerResult(start=4, end=21, entity_type="PERSON", score=1.0),
-5         RecognizerResult(start=4, end=33, entity_type="LOCATION", score=1.0),
-6     ]
-7     anonymizer_result = engine.anonymize(
-8         text,
-9         original_analyzer_results
-10    )
-11    assert anonymizer_result.text == "I'm <LOCATION>."
-      mock_logger.debug.assert_called()
+    text = "I'm George Washington Square Park."
+    original_analyzer_results = [
+        RecognizerResult(start=4, end=21, entity_type="PERSON", score=1.0),
+        RecognizerResult(start=4, end=33, entity_type="LOCATION", score=1.0),
+    ]
+    anonymizer_result = engine.anonymize(
+        text,
+        original_analyzer_results
+    )
+    assert anonymizer_result.text == "I'm <LOCATION>."
+    mock_logger.debug.assert_called()
 
 def _operate(
     text: str,
